@@ -6,10 +6,6 @@
     // 设置文字区域的颜色
     "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 
-    // Note that the font_face and font_size are overridden in the platform
-    // specific settings file, for example, "Preferences (Linux).sublime-settings".
-    // Because of this, setting them here will have no effect: you must set them
-    // in your User File Preferences.
     //请知悉，对于字体和字体大小的设置有可能无效，因为这里的设置会被针对平台
     //的特殊设置文件中的设置所覆盖，例如"Preferences (Linux).sublime-settings"
     //文件，因此，你必须再这些 特殊文件中修改相关设置
@@ -19,6 +15,9 @@
     // Valid options are "no_bold", "no_italic", "no_antialias", "gray_antialias",
     // "subpixel_antialias", "no_round" (OS X only), "gdi" (Windows only) and
     // "directwrite" (Windows only)
+    //这是一个数组选项，可用的选项有非粗体，非意大利体，非平滑，灰色平滑，亚像素平滑，非
+    //圆体(仅适用于os x)("no_round")，"directwrite"(directwrite具体详情：https://msdn.microsoft.com/zh-cn/library/windows/apps/dd371554.aspx)
+    //TODO::还差一个gdi字体
     "font_options": [],
 
     // Characters that are considered to separate words
